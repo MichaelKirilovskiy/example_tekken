@@ -1,0 +1,55 @@
+body {
+	background-image: url("../images/cell2.png");
+	margin: 0;
+    padding: 0px;
+	font-size: 14px;
+    text-align: center;	
+	width: 1280px;
+}
+.bg {
+	position:absolute;
+	float: left;
+	z-index: 1;
+	margin: 0;
+    padding: 0;
+	width: 90%;
+	min-height: 160%;
+	
+	}
+.logo {
+	position: absolute;
+	float: left;
+	margin-top:50px;
+	margin-left: 80px;
+	width: 23%;
+	z-index: 2;
+	border: 1px solid red;
+	}
+.menu {
+
+	position: relative;
+	float: right;
+	margin-top:35px;
+	margin-right: 80px;
+	z-index: 2;
+	box-sizing:border-box;
+	text-align: right;
+	border-bottom: 3px solid red;
+	padding-bottom: 10px;
+	font-size: 0;
+	
+	}
+.button {
+	display:inline-block;
+	font-size: 6;
+	border: 1px solid red;
+	
+
+	}
+#hwoarang {
+	position: absolute;
+	margin-top: 390px;
+	margin-left: 50px;
+	z-index: 2;
+	text-align: left;	
+	}
